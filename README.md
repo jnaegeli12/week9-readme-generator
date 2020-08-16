@@ -1,6 +1,6 @@
 # README Generator
 ## Description
-So much description and really worth reading
+A simple command-line application for generating a professional README for any project.
 ## Table of Contents
 * Installation
 * Usage
@@ -9,11 +9,13 @@ So much description and really worth reading
 * Tests
 * Questions
 ## Installation
-Use `npm i` to install the dependencies.
+Use `npm install inquirer` to install the dependencies.
 ## Usage
+After opening the terminal, run `node index.js` and answer each prompt for your application. The answers will be sorted and formatted with markdown into categories.
 ## License
 The Unlicense
 ## Contributing
+Just me
 ## Tests
 Use `npm test` to test the application.
 ## Questions?

@@ -78,6 +78,7 @@ inquirer.prompt([
     '\n' + "## License" + 
     '\n' + answers.license + 
     '\n' + "## Contributing" + 
+    '\n' + answers.contributors + 
     '\n' + "## Tests" + 
     '\n' + "Use `" + answers.test + "` to test the application." + 
     '\n' + "## Questions?" + 
