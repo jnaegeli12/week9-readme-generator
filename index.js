@@ -82,7 +82,7 @@ inquirer.prompt([
     '\n' + "## Tests" + 
     '\n' + "Use `" + answers.test + "` to test the application." + 
     '\n' + "## Questions?" + 
-    '\n' + answers.name + "<br />" + 
+    '\n' + "https://github.com/" + answers.name + "<br />" + 
     '\n' + answers.email,
     
     function (err) {
