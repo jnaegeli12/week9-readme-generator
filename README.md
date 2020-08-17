@@ -14,7 +14,7 @@
   Fork and clone this repository. 
   Use `npm i` to install the dependencies.
   ## Usage
-  After downloading from Github, run `node index.js` in your terminal. Follow the prompts and a README.md will be created.
+  After downloading from Github, run `node index.js` in your terminal. Follow the prompts and a README.md will be created. The `exampleREADME.md` file in this repository shows what a generated README looks like without any further edits.
 
   ![](Screencast-Week9.gif)
 
