@@ -3,12 +3,12 @@
   ## Description
   A simple command-line application to create a README for any project.
   ## Table of Contents
-  * Installation(#installation)
-  * Usage(#usage)
-  * License(#license)
-  * Contributing(#contributing)
-  * Tests(#tests)
-  * Questions(#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ## Installation
   Use `npm i` to install the dependencies.
   ## Usage
