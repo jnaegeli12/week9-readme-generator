@@ -55,7 +55,7 @@ inquirer.prompt([
   },
   {
     type: "input",
-    message: "Who contributed to your project?",
+    message: "How can someone contribute to your project?",
     name: "contributors",
     validate: validateAnswer
   },
@@ -64,18 +64,18 @@ inquirer.prompt([
     message: "What license is your project under?",
     name: "license",
     choices: [
-      "GNU-AGPLv3",
-      "GNU-GPLv3",
-      "GNU-LGPLv3",
-      "Mozilla-Public",
       "Apache",
-      "MIT",
       "Boost",
+      "Eclipse",
+      "GNU",
+      "IBM",
+      "MIT",
+      "Mozilla",
       "Unlicense"
     ],
     validate: validateAnswer
   }
-
+  
 ]).then(data => {
 
   fs.writeFile("exampleREADME.md", generateMarkdown(data), function (err) {
